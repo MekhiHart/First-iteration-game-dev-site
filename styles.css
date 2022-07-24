@@ -1,0 +1,109 @@
+body{
+    /* background-image: url("./Images/Banner.png") */
+}
+
+
+/* * Universal */
+.background-image{
+    /* Background image */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1,
+h2,
+h3{
+    text-align: center;
+    font-family: "Roboto Condensed";
+}
+
+h1{
+    font-weight: bolder;
+    font-size: 72px;
+    letter-spacing: 2px;
+}
+
+
+
+/* * Header */
+
+
+nav.header-nav{
+    display: flex;
+    margin-top: 40px;;
+}
+
+.nav-header{
+    text-decoration: underline;
+
+}
+
+/* * Banner */
+
+.banner{
+    display: flex;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+}
+
+.focus{
+    display: flex;
+    background-color: black;
+    color:white;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+}
+
+
+#banner-image{
+    background-image: url("./Images/Banner.png");
+}
+
+.focus #quote{
+    margin: auto;
+}
+
+/* * Portfolio */
+.Portfolio{
+    display: block;
+    text-align: center;
+    margin-bottom: 200px;
+/*     
+    justify-content: center; */
+}
+
+.portfolio-container{
+    display: inline-flex;
+    align-items: center ;
+}
+
+.portfolio-container img{
+    height: 200px;
+    width: 300px;
+    margin: 40px 40px 40px 100px;
+}
+
+
+/* * Team */
+.team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color:antiquewhite
+}
+
+.team-container{
+
+    margin: 50px;
+}
+
+/* * Flex properties */
+
+#space-around{
+    justify-content: space-around;
+}
